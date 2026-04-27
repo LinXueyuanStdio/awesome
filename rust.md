@@ -28,6 +28,9 @@ Performance
 - [Rust by Example](https://doc.rust-lang.org/stable/rust-by-example/)
 - https://rustfinity.com/
 
+## Tools
+
+- application packaging: [cargo-dist](https://github.com/axodotdev/cargo-dist)
 
 ## Packages
 
@@ -58,6 +61,7 @@ Hash and HashMap
 
 Array and data frame
 
+- [aligned-vec](https://github.com/sarah-quinones/aligned-vec): align the data they contain to a runtime alignment value
 - N-dimensional array: [ndarray](https://github.com/rust-ndarray/ndarray)
 - Data Frame: [polars](https://github.com/pola-rs/polars)
 
@@ -83,13 +87,12 @@ IO
 Compression
 
 - Gzip: [flate2](https://docs.rs/flate2/latest/flate2/)
-- 
 
 Performance
 
-- [crossbeam - Tools for concurrent programming](https://github.com/crossbeam-rs/crossbeam)
-- Data parallelism: [rayon](https://github.com/rayon-rs/rayon)
+- Concurrent programming: [Crossbeam](https://github.com/crossbeam-rs/crossbeam)
 - Asynchronous programming: [tokio](https://github.com/tokio-rs/tokio)
+- Data parallelism: [rayon](https://github.com/rayon-rs/rayon)
 - Benchmarking: [hyperfine](https://github.com/sharkdp/hyperfine)
 - PProf: [pprof](https://github.com/tikv/pprof-rs)
 
@@ -101,5 +104,15 @@ Testing
 Bioinformatics
 
 - Sequence parser: [seq_io](https://github.com/markschl/seq_io),
+  [**paraseq**](https://github.com/noamteyssier/paraseq) ([blog](https://noamteyssier.github.io/2025-02-03/)),
   [**needletail**](https://github.com/onecodex/needletail),
   [noodles](https://github.com/zaeleus/noodles)
+- Packed sequence: [packed-seq](https://github.com/rust-seq/packed-seq)
+
+Scientific
+
+- Statistical computation: [statrs](https://github.com/statrs-dev/statrs)
+
+Data strutures
+
+-  succinct data structures: [simple-sds](https://github.com/jltsiren/simple-sds)

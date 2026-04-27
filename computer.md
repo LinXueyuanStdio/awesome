@@ -13,7 +13,7 @@
 ## Data
 
 - [Latency Numbers Every Programmer Should Know](https://gist.github.com/jboner/2841832)
-
+- [Techniques and numbers for estimating system's performance from first-principles](https://github.com/sirupsen/napkin-math)
 
 
 ## Data restore
